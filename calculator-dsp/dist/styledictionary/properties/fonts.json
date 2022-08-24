@@ -1,0 +1,96 @@
+{
+  "font": {
+    "display-small": {
+      "family": {
+        "value": "{custom.main-font.value}"
+      },
+      "weight": {
+        "value": "400"
+      }
+    },
+    "display-medium": {
+      "family": {
+        "value": "{custom.main-font.value}"
+      },
+      "weight": {
+        "value": "400"
+      }
+    },
+    "display-large": {
+      "family": {
+        "value": "{custom.main-font.value}"
+      },
+      "weight": {
+        "value": "400"
+      }
+    },
+    "headline-small": {
+      "family": {
+        "value": "{custom.main-font.value}"
+      },
+      "weight": {
+        "value": "400"
+      }
+    },
+    "headline-medium": {
+      "family": {
+        "value": "{custom.main-font.value}"
+      },
+      "weight": {
+        "value": "400"
+      }
+    },
+    "headline-large": {
+      "family": {
+        "value": "{custom.main-font.value}"
+      },
+      "weight": {
+        "value": "400"
+      }
+    },
+    "display-extra-small": {
+      "family": {
+        "value": "{custom.main-font.value}"
+      },
+      "weight": {
+        "value": "400"
+      }
+    },
+    "title-medium": {
+      "family": {
+        "value": "{custom.main-font.value}"
+      },
+      "weight": {
+        "value": "400"
+      }
+    }
+  },
+  "size": {
+    "font": {
+      "display-small": {
+        "value": "3.5625"
+      },
+      "display-medium": {
+        "value": "4"
+      },
+      "display-large": {
+        "value": "5"
+      },
+      "headline-small": {
+        "value": "1.5"
+      },
+      "headline-medium": {
+        "value": "1.75"
+      },
+      "headline-large": {
+        "value": "2"
+      },
+      "display-extra-small": {
+        "value": "2.8125"
+      },
+      "title-medium": {
+        "value": "1"
+      }
+    }
+  }
+}

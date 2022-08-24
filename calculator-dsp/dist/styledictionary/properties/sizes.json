@@ -1,0 +1,73 @@
+{
+  "size": {
+    "display-small-line-height": {
+      "value": "4"
+    },
+    "display-small-letter-spacing": {
+      "value": "-0.015625"
+    },
+    "display-medium-line-height": {
+      "value": "4.75"
+    },
+    "display-medium-letter-spacing": {
+      "value": "-0.03125"
+    },
+    "headline-small-line-height": {
+      "value": "2"
+    },
+    "headline-medium-letter-spacing": {
+      "value": "0"
+    },
+    "headline-medium-line-height": {
+      "value": "2.25"
+    },
+    "headline-small-letter-spacing": {
+      "value": "0"
+    },
+    "headline-large-line-height": {
+      "value": "2.5"
+    },
+    "headline-large-letter-spacing": {
+      "value": "0"
+    },
+    "title-medium-line-height": {
+      "value": "1.5"
+    },
+    "title-medium-letter-spacing": {
+      "value": "0.009375"
+    },
+    "display-large-letter-spacing": {
+      "value": "-0.25"
+    },
+    "display-large-line-height": {
+      "value": "5.75"
+    },
+    "border-small": {
+      "value": "1"
+    },
+    "border-medium": {
+      "value": "1.5"
+    },
+    "border-large": {
+      "value": "2"
+    },
+    "padding-small": {
+      "value": "1"
+    },
+    "padding-medium": {
+      "value": "2"
+    },
+    "padding-large": {
+      "value": "1.5"
+    },
+    "display-extra-small-line-height": {
+      "value": "3.25"
+    },
+    "gap-small": {
+      "value": "1"
+    },
+    "gap-large": {
+      "value": "1.5"
+    }
+  }
+}

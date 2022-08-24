@@ -1,0 +1,70 @@
+/**
+ * Do not edit directly
+ * Generated on Sun, 21 Aug 2022 19:07:29 GMT
+ */
+
+:root {
+  --white: #ffffff;
+  --light-surface-1: #f8efff;
+  --light-surface-5: #ebdbff;
+  --light-surface-2: #f4e9ff;
+  --dark-surface-1: #252329;
+  --dark-surface-0: #1c1b1f;
+  --dark-surface-3: #302d37;
+  --dark-surface-5: #35313e;
+  --dark-surface-hover-1: #161519;
+  --dark-surface-hover-2: #111113;
+  --light-surface-4: #eddfff;
+  --light-surface-6: #dabdff;
+  --neutral-99: #fffbff;
+  --display-small-family: "Roboto", sans-serif;
+  --display-small-weight: 400;
+  --display-medium-family: "Roboto", sans-serif;
+  --display-medium-weight: 400;
+  --display-large-family: "Roboto", sans-serif;
+  --display-large-weight: 400;
+  --headline-small-family: "Roboto", sans-serif;
+  --headline-small-weight: 400;
+  --headline-medium-family: "Roboto", sans-serif;
+  --headline-medium-weight: 400;
+  --headline-large-family: "Roboto", sans-serif;
+  --headline-large-weight: 400;
+  --display-extra-small-family: "Roboto", sans-serif;
+  --display-extra-small-weight: 400;
+  --title-medium-family: "Roboto", sans-serif;
+  --title-medium-weight: 400;
+  --display-small-size: 3.5625rem;
+  --display-medium-size: 4rem;
+  --display-large-size: 5rem;
+  --headline-small-size: 1.5rem;
+  --headline-medium-size: 1.75rem;
+  --headline-large-size: 2rem;
+  --display-extra-small-size: 2.8125rem;
+  --title-medium-size: 1rem;
+  --display-small-line-height: 4rem;
+  --display-small-letter-spacing: -0.015625rem;
+  --display-medium-line-height: 4.75rem;
+  --display-medium-letter-spacing: -0.03125rem;
+  --headline-small-line-height: 2rem;
+  --headline-medium-letter-spacing: 0rem;
+  --headline-medium-line-height: 2.25rem;
+  --headline-small-letter-spacing: 0rem;
+  --headline-large-line-height: 2.5rem;
+  --headline-large-letter-spacing: 0rem;
+  --title-medium-line-height: 1.5rem;
+  --title-medium-letter-spacing: 0.009375rem;
+  --display-large-letter-spacing: -0.25rem;
+  --display-large-line-height: 5.75rem;
+  --border-small: 1rem;
+  --border-medium: 1.5rem;
+  --border-large: 2rem;
+  --padding-small: 1rem;
+  --padding-medium: 2rem;
+  --padding-large: 1.5rem;
+  --display-extra-small-line-height: 3.25rem;
+  --gap-small: 1rem;
+  --gap-large: 1.5rem;
+  --drop-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
+  --main-font: "Roboto", sans-serif;
+  --display-extra-small-letter-spacing: 0;
+}

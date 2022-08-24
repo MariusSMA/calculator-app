@@ -1,0 +1,13 @@
+{
+  "custom": {
+    "drop-shadow": {
+      "value": "0 0.25rem 0.25rem rgba(0, 0, 0, 0.05)"
+    },
+    "main-font": {
+      "value": "\"Roboto\", sans-serif"
+    },
+    "display-extra-small-letter-spacing": {
+      "value": "0"
+    }
+  }
+}

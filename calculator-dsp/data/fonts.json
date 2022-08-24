@@ -1,0 +1,279 @@
+{
+  "dsp_spec_version": "0.0.1",
+  "last_updated_by": "",
+  "last_updated": "2022-08-15T11:09:34.580Z",
+  "entities": [
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "946fbc0e-a866-46b2-ab99-8f405fec41b8",
+      "name": "display-small",
+      "last_updated": "2022-08-15T11:53:48.900Z",
+      "last_updated_by": "",
+      "description": "",
+      "tags": [],
+      "related_entity_ids": [
+        "c90ffdcd-0a5c-49a6-8e31-a22b256cc0c4",
+        "a5c9343e-fa82-4a9f-af90-de14931c9cb3"
+      ],
+      "tokens": [
+        {
+          "id": "display-small-family",
+          "type": "custom",
+          "value": "{main-font}",
+          "key": "family"
+        },
+        {
+          "id": "display-small-size",
+          "type": "custom",
+          "value": "3.5625",
+          "key": "size"
+        },
+        {
+          "id": "display-small-weight",
+          "type": "custom",
+          "value": "400",
+          "key": "weight"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "1ef03cd0-9140-494a-bb15-5b3eaee5541f",
+      "name": "display-medium",
+      "last_updated": "2022-08-15T11:53:46.015Z",
+      "last_updated_by": "",
+      "description": "",
+      "tags": [],
+      "related_entity_ids": [
+        "7d59af8e-0686-48a4-b7d4-7db1b83b9264",
+        "f9e2066d-b5a3-45ba-b216-42e61c3febff"
+      ],
+      "tokens": [
+        {
+          "id": "display-medium-family",
+          "type": "custom",
+          "value": "{main-font}",
+          "key": "family"
+        },
+        {
+          "id": "display-medium-size",
+          "type": "custom",
+          "value": "4",
+          "key": "size"
+        },
+        {
+          "id": "display-medium-weight",
+          "type": "custom",
+          "value": "400",
+          "key": "weight"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "0b339714-6e80-483d-b7ed-1d4774d942a4",
+      "name": "display-large",
+      "last_updated": "2022-08-15T11:53:42.995Z",
+      "last_updated_by": "",
+      "description": "",
+      "tags": [],
+      "related_entity_ids": [
+        "cb222568-2dec-4ead-ae1a-339834850b95",
+        "60ea7530-7302-4bf8-adf5-23313da3a590"
+      ],
+      "tokens": [
+        {
+          "id": "display-large-family",
+          "type": "custom",
+          "value": "{main-font}",
+          "key": "family"
+        },
+        {
+          "id": "display-large-size",
+          "type": "custom",
+          "value": "5",
+          "key": "size"
+        },
+        {
+          "id": "display-large-weight",
+          "type": "custom",
+          "value": "400",
+          "key": "weight"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "1b73e085-e903-48f4-aa0b-6a99539030dc",
+      "name": "headline-small",
+      "last_updated": "2022-08-15T11:54:13.145Z",
+      "last_updated_by": "",
+      "description": "",
+      "tags": [],
+      "related_entity_ids": [
+        "3388a324-54bd-4fea-84ca-8ce42ca9db0e",
+        "8b97f303-7a9f-44d7-be0b-5094e77a4303"
+      ],
+      "tokens": [
+        {
+          "id": "headline-small-family",
+          "type": "custom",
+          "value": "{main-font}",
+          "key": "family"
+        },
+        {
+          "id": "headline-small-size",
+          "type": "custom",
+          "value": "1.5",
+          "key": "size"
+        },
+        {
+          "id": "headline-small-weight",
+          "type": "custom",
+          "value": "400",
+          "key": "weight"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "dbceaac6-017e-4338-8a78-5fc6fa3a0776",
+      "name": "headline-medium",
+      "last_updated": "2022-08-15T11:54:09.003Z",
+      "last_updated_by": "",
+      "description": "",
+      "tags": [],
+      "related_entity_ids": [
+        "f26c0d5e-dca3-4e7b-af9f-981f2a82571f",
+        "1078ce60-95cc-481a-95cc-29163fc8ab3e"
+      ],
+      "tokens": [
+        {
+          "id": "headline-medium-family",
+          "type": "custom",
+          "value": "{main-font}",
+          "key": "family"
+        },
+        {
+          "id": "headline-medium-size",
+          "type": "custom",
+          "value": "1.75",
+          "key": "size"
+        },
+        {
+          "id": "headline-medium-weight",
+          "type": "custom",
+          "value": "400",
+          "key": "weight"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "66fd6e91-e399-4683-9443-4871626a8ef6",
+      "name": "headline-large",
+      "last_updated": "2022-08-15T11:53:52.722Z",
+      "last_updated_by": "",
+      "description": "",
+      "tags": [],
+      "related_entity_ids": [
+        "4819cf98-df6e-49ad-9ac6-6b516c7ac65d",
+        "a231140d-a1b5-49c3-94e0-8056d4e092bd"
+      ],
+      "tokens": [
+        {
+          "id": "headline-large-family",
+          "type": "custom",
+          "value": "{main-font}",
+          "key": "family"
+        },
+        {
+          "id": "headline-large-size",
+          "type": "custom",
+          "value": "2",
+          "key": "size"
+        },
+        {
+          "id": "headline-large-weight",
+          "type": "custom",
+          "value": "400",
+          "key": "weight"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "1de683ed-236e-4257-b435-b6994c5c2810",
+      "name": "display-extra-small",
+      "last_updated": "2022-08-18T12:31:09.605Z",
+      "last_updated_by": "",
+      "description": "",
+      "tags": [],
+      "related_entity_ids": [
+        "68789c59-386d-4ffc-bfad-e4539be0f9e6",
+        "74b3e866-d0e7-46e9-bec7-0b3c3f223684"
+      ],
+      "tokens": [
+        {
+          "id": "display-extra-small-family",
+          "type": "custom",
+          "value": "{main-font}",
+          "key": "family"
+        },
+        {
+          "id": "display-extra-small-weight",
+          "type": "custom",
+          "value": "400",
+          "key": "weight"
+        },
+        {
+          "id": "display-extra-small-size",
+          "type": "custom",
+          "value": "2.8125",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "466a9a86-009d-4d83-be68-f35f1e30c6a8",
+      "name": "title-medium",
+      "last_updated": "2022-08-18T13:52:43.593Z",
+      "last_updated_by": "",
+      "description": "",
+      "tags": [],
+      "related_entity_ids": [
+        "728c09ed-886b-463d-9bc2-19b53efecc12",
+        "5386d8f5-2a4f-41bd-9bef-b263f43d5246"
+      ],
+      "tokens": [
+        {
+          "id": "title-medium-family",
+          "type": "custom",
+          "value": "{main-font}",
+          "key": "family"
+        },
+        {
+          "id": "title-medium-size",
+          "type": "custom",
+          "value": "1",
+          "key": "size"
+        },
+        {
+          "id": "title-medium-weight",
+          "type": "custom",
+          "value": "400",
+          "key": "weight"
+        }
+      ]
+    }
+  ]
+}

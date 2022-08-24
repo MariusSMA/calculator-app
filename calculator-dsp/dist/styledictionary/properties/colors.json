@@ -1,0 +1,43 @@
+{
+  "color": {
+    "white": {
+      "value": "#ffffffff"
+    },
+    "light-surface1": {
+      "value": "#F8EFFFff"
+    },
+    "light-surface5": {
+      "value": "#EBDBFFff"
+    },
+    "light-surface2": {
+      "value": "#F4E9FFff"
+    },
+    "dark-surface1": {
+      "value": "#252329ff"
+    },
+    "dark-surface0": {
+      "value": "#1C1B1Fff"
+    },
+    "dark-surface3": {
+      "value": "#302d37ff"
+    },
+    "dark-surface5": {
+      "value": "#35313Eff"
+    },
+    "dark-surface-hover-1": {
+      "value": "#161519ff"
+    },
+    "dark-surface-hover-2": {
+      "value": "#111113ff"
+    },
+    "light-surface4": {
+      "value": "#eddfffff"
+    },
+    "light-surface6": {
+      "value": "#dabdffff"
+    },
+    "neutral-99": {
+      "value": "#fffbffff"
+    }
+  }
+}
