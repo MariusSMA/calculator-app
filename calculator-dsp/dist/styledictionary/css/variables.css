@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 21 Aug 2022 19:07:29 GMT
+ * Generated on Sun, 28 Aug 2022 20:39:21 GMT
  */
 
 :root {
@@ -55,9 +55,9 @@
   --title-medium-letter-spacing: 0.009375rem;
   --display-large-letter-spacing: -0.25rem;
   --display-large-line-height: 5.75rem;
-  --border-small: 1rem;
-  --border-medium: 1.5rem;
-  --border-large: 2rem;
+  --border-radius-small: 1rem;
+  --border-radius-medium: 1.5rem;
+  --border-radius-large: 2rem;
   --padding-small: 1rem;
   --padding-medium: 2rem;
   --padding-large: 1.5rem;
@@ -67,4 +67,5 @@
   --drop-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.05);
   --main-font: "Roboto", sans-serif;
   --display-extra-small-letter-spacing: 0;
+  --transition: 0.3s ease-out;
 }

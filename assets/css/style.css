@@ -4,7 +4,7 @@
 	/* Box Model */
 
 	--padding: var(--padding-small);
-	--border-radius: var(--border-small);
+	--border-radius: var(--border-radius-small);
 	--gap: var(--gap-small);
 
 	/* Colors */
@@ -50,6 +50,34 @@
 	}
 }
 
+/* Theme Classes */
+
+.light-theme {
+	--background-color: var(--light-surface-5);
+	--calculator-background-color: var(--white);
+	--calculator-header-background-color: var(--light-surface-2);
+	--button-background-color: var(--light-surface-1);
+	--button-background-accent-color: var(--light-surface-5);
+	--button-background-color-hover: var(--light-surface-4);
+	--button-background-accent-color-hover: var(--light-surface-6);
+	--theme-buton-background-color: var(--white);
+	--theme-buton-background-color-hover: var(--neutral-99);
+	--text-color: var(--dark-surface-1);
+}
+
+.dark-theme {
+	--background-color: var(--dark-surface-5);
+	--calculator-background-color: var(--dark-surface-3);
+	--calculator-header-background-color: var(--dark-surface-1);
+	--button-background-color: var(--dark-surface-1);
+	--button-background-accent-color: var(--dark-surface-0);
+	--button-background-color-hover: var(--dark-surface-hover-1);
+	--button-background-accent-color-hover: var(--dark-surface-hover-2);
+	--theme-buton-background-color: var(--dark-surface-3);
+	--theme-buton-background-color-hover: var(--dark-surface-hover-1);
+	--text-color: var(--light-surface-2);
+}
+
 /* Font Import */
 
 @font-face {
@@ -80,12 +108,18 @@
 
 html {
 	font-family: var(--main-font);
+	height: 100%;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
 
 body {
+	height: inherit;
 	margin: 0;
+}
+
+main {
+	height: inherit;
 }
 
 button {
@@ -93,13 +127,14 @@ button {
 	border: none;
 	border-radius: var(--border-radius);
 	cursor: pointer;
-	transition: background-color 0.3s;
+	transition: background-color var(--transition);
 }
 
 h1,
 p {
 	margin: 0;
 	color: var(--text-color);
+	transition: color var(--transition);
 }
 
 a {
@@ -107,18 +142,20 @@ a {
 	font-weight: bold;
 	color: var(--text-color);
 	text-decoration: none;
+	transition: color var(--transition);
 }
 
 a::after {
 	content: "";
 	position: absolute;
 	bottom: 0;
-	left: 0;
+	left: 50%;
 	width: 0;
 	height: 0.125rem;
+	transform: translateX(-50%);
 	background-color: var(--text-color);
 	border-radius: var(--border-radius);
-	transition: width 0.3s;
+	transition: width var(--transition);
 }
 
 a:hover::after {
@@ -130,8 +167,9 @@ a:hover::after {
 .calculator {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	min-height: 100%;
 	background-color: var(--calculator-background-color);
+	transition: background-color var(--transition);
 }
 
 .calculator-header {
@@ -143,6 +181,7 @@ a:hover::after {
 	border-bottom-left-radius: var(--border-radius);
 	border-bottom-right-radius: var(--border-radius);
 	background-color: var(--calculator-header-background-color);
+	transition: background-color var(--transition);
 }
 
 .theme-button {
@@ -157,6 +196,22 @@ a:hover::after {
 }
 
 .light-mode-icon {
+	display: none;
+}
+
+.light-theme .dark-mode-icon {
+	display: block;
+}
+
+.light-theme .light-mode-icon {
+	display: none;
+}
+
+.dark-theme .light-mode-icon {
+	display: block;
+}
+
+.dark-theme .dark-mode-icon {
 	display: none;
 }
 
@@ -221,6 +276,7 @@ a:hover::after {
 
 .backspace-icon path {
 	fill: var(--text-color);
+	transition: fill var(--transition);
 }
 
 .middle-dot {
@@ -229,6 +285,7 @@ a:hover::after {
 
 .middle-dot-icon path {
 	fill: var(--text-color);
+	transition: fill var(--transition);
 }
 
 footer {
@@ -268,6 +325,14 @@ footer {
 		display: block;
 	}
 
+	.light-theme .light-mode-icon {
+		display: block;
+	}
+
+	.dark-theme .dark-mode-icon {
+		display: block;
+	}
+
 	.calculator-body {
 		flex: 1.5;
 	}
@@ -290,7 +355,7 @@ footer {
 		/* Box Model */
 
 		--padding: var(--padding-medium);
-		--border-radius: var(--border-medium);
+		--border-radius: var(--border-radius-medium);
 	}
 
 	.theme-button {
@@ -380,7 +445,7 @@ footer {
 		/* Box Model */
 
 		--padding: var(--padding-small);
-		--border-radius: var(--border-small);
+		--border-radius: var(--border-radius-small);
 		--gap: var(--gap-small);
 
 		/* Typography */
@@ -404,9 +469,8 @@ footer {
 	body {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		min-height: 100vh;
 		background-color: var(--background-color);
+		transition: background-color var(--transition);
 	}
 
 	main {
@@ -435,6 +499,14 @@ footer {
 	}
 
 	.light-mode-icon {
+		display: none;
+	}
+
+	.light-theme .light-mode-icon {
+		display: none;
+	}
+
+	.dark-theme .dark-mode-icon {
 		display: none;
 	}
 
@@ -469,6 +541,7 @@ footer {
 
 	footer {
 		display: block;
+		text-align: center;
 		margin-bottom: 0.5rem;
 	}
 
@@ -482,7 +555,7 @@ footer {
 
 /* Large Layout (1440dp+) */
 
-@media screen and (min-width: 90rem) {
+@media screen and (min-width: 90rem) and (min-height: 57.5rem) {
 	:root {
 		/* Typography */
 
@@ -514,6 +587,14 @@ footer {
 	}
 
 	.light-mode-icon {
+		display: block;
+	}
+
+	.light-theme .light-mode-icon {
+		display: block;
+	}
+
+	.dark-theme .dark-mode-icon {
 		display: block;
 	}
 
@@ -567,7 +648,7 @@ footer {
 
 	/* Dark Mode - Large Layout (1440dp+) */
 
-	@media screen and (min-width: 90rem) {
+	@media screen and (min-width: 90rem) and (min-height: 57.5rem) {
 		.dark-mode-icon {
 			display: block;
 		}

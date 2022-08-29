@@ -42,13 +42,13 @@
     "display-large-line-height": {
       "value": "5.75"
     },
-    "border-small": {
+    "border-radius-small": {
       "value": "1"
     },
-    "border-medium": {
+    "border-radius-medium": {
       "value": "1.5"
     },
-    "border-large": {
+    "border-radius-large": {
       "value": "2"
     },
     "padding-small": {
