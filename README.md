@@ -17,7 +17,8 @@
 
 ### Attribution
 
-- The application design is inspired from [Lucia Scott](https://dribbble.com/luciascott) and Google's Calculator App.
+- The application design is inspired from [Lucia Scott](https://dribbble.com/luciascott) and Google's Calculator app.
+- The functionality and the way the calculator works is inspired from Microsoft's calculator app.
 
 ### The challenge
 
@@ -36,7 +37,7 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
+- Semantic HTML5
 - Mobile-first workflow
 - JavaScript
 - Flexbox & Grid
@@ -45,6 +46,8 @@ Users should be able to:
 ### What I learned
 
 - To implement a Design System Package (with the Adobe XD extension available in Visual Studio Code) in order to be more consistent in the process and to familiarize with these tools.
+
+- To create the logic of a basic calculator (followed the practices used by Microsoft for their calculator app) and to manipulate the DOM to show the desired outcome.
 
 ## Author
 
