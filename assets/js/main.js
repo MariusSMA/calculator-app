@@ -25,10 +25,12 @@ window.addEventListener("keydown", handleKeyboardInput);
 
 // Change the theme depending on the user preference
 
-function changeTheme() {
+function changeTheme({ target: button }) {
 	window.matchMedia("(prefers-color-scheme: light)").matches
 		? document.body.classList.toggle("dark-theme")
 		: document.body.classList.toggle("light-theme");
+
+	button.blur();
 }
 
 // Setter & Updater Functions
