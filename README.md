@@ -17,7 +17,7 @@
 
 ### Attribution
 
-- The application design is inspired from [Lucia Scott](https://dribbble.com/luciascott) and Google's Calculator app.
+- The application design is inspired from [Lucia Scott](https://dribbble.com/luciascott) and Google's Calculator app. Below in the [Links](#links) section you can access the design file from Figma and check out the work I've done!
 - The functionality and the way the calculator works is inspired from Microsoft's calculator app.
 
 ### The challenge
@@ -32,6 +32,7 @@ Users should be able to:
 
 - [Solution URL](https://github.com/MariusSMA/calculator-app)
 - [Live Site URL](https://mariussma.github.io/calculator-app/)
+- [Design - Figma](https://www.figma.com/file/mqs3DkTyH40Tr3X35zgsIK/calculator-app?node-id=0%3A1)
 
 ## My process
 
@@ -42,6 +43,7 @@ Users should be able to:
 - JavaScript
 - Flexbox & Grid
 - Design System Package (Adobe XD)
+- Figma
 
 ### What I learned
 
