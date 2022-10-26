@@ -124,6 +124,7 @@ main {
 
 button {
 	font-family: var(--main-font);
+	margin: 0;
 	border: none;
 	border-radius: var(--border-radius);
 	cursor: pointer;
@@ -167,14 +168,16 @@ a:hover::after {
 .calculator {
 	display: flex;
 	flex-direction: column;
-	min-height: 100%;
+	/* min-height: 100%; */
+	height: inherit;
 	background-color: var(--calculator-background-color);
 	transition: background-color var(--transition);
 }
 
 .calculator-header {
 	display: flex;
-	flex: 1.75;
+	/* flex: 1.75; */
+	flex-grow: 1.75;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -265,7 +268,8 @@ a:hover::after {
 .calculator-body {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	flex: 1;
+	/* flex: 1; */
+	flex-grow: 1;
 	gap: var(--gap);
 	padding: var(--padding);
 }
@@ -362,7 +366,8 @@ footer {
 	}
 
 	.calculator-body {
-		flex: 1.5;
+		/* flex: 1.5; */
+		flex-grow: 1.5;
 	}
 
 	.backspace-icon {
@@ -393,7 +398,8 @@ footer {
 	}
 
 	.calculator-body {
-		flex: 5;
+		/* flex: 5; */
+		flex-grow: 5;
 	}
 
 	.button {
@@ -447,7 +453,8 @@ footer {
 
 	.calculator-body {
 		gap: var(--gap);
-		flex: 10;
+		/* flex: 10; */
+		flex-grow: 10;
 	}
 
 	.button {
@@ -628,7 +635,8 @@ footer {
 	}
 
 	.calculator-body {
-		flex: 3.25;
+		/* flex: 3.25; */
+		flex-grow: 3.25;
 	}
 
 	.button {
